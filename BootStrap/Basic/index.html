@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Basics</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="display-1">Bootstrap Playground </h1>
+        <h2 class="display-3">Buttons</h2>
+
+        <h1>Placeholder</h1>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button>Hello</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-outline-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+
+<button type="button" class="btn btn-link">Link</button>
+
+<button type="button" class="btn btn-primary btn-lg">Large button</button>
+<button type="button" class="btn btn-primary btn-sm">Small button</button>
+
+<button type="button" class="btn btn-primary">
+    Profile <span class="badge badge-light">9</span>
+    <span class="sr-only">unread messages</span>
+  </button>
+
+  <div class="btn-group" role="group" aria-label="Basic example">
+    <button type="button" class="btn btn-warning">Left</button>
+    <button type="button" class="btn btn-danger">Middle</button>
+    <button type="button" class="btn btn-secondary">Right</button>
+  </div>
+
+  <div class="alert alert-danger" role="alert">
+    <a href="#" class="alert-link">The time is tickinging and world is about to end</a>. Save Yourself
+  </div>
+
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <strong>HUSTLE! Time is ticking</strong> Work hard. Grind yourself NOW
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, harum doloremque itaque sint rerum, earum porro suscipit soluta, temporibus asperiores accusamus labore fugiat dolorum ad saepe ex aliquam odio neque.
+        Vel quisquam animi, libero consequuntur cupiditate perspiciatis quas fugiat soluta, quia nobis maxime. Provident dicta ut cumque esse pariatur cum quod nulla saepe nesciunt, reiciendis, maxime quas nam eos sint.
+        Ducimus, iure a expedita nobis veritatis ea sit nesciunt velit. Accusantium veritatis consequuntur enim magni deserunt nam atque nemo molestiae ipsum esse inventore omnis placeat, magnam quibusdam ut ullam laboriosam.
+        Dolore, eos? Hic commodi distinctio, adipisci obcaecati alias fugit, temporibus deleniti nisi totam tempore voluptatem dolorem in quisquam sequi, a provident vitae. Nesciunt ipsa dicta veritatis, delectus accusamus eaque incidunt.
+        Assumenda deserunt dolor magni reprehenderit illum? Exercitationem eveniet minus maxime, placeat hic nostrum eos eaque tempore nemo facilis, quidem, quos dolor mollitia totam. Eum temporibus omnis rem, placeat corrupti quos?</p>
+
+        <span class="badge badge-pill badge-primary">Primary</span>
+
+        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+            <button type="button" class="btn btn-secondary">1</button>
+            <button type="button" class="btn btn-secondary">2</button>
+          
+            <div class="btn-group" role="group">
+              <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </button>
+              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <a class="dropdown-item" href="#">Dropdown link</a>
+                <a class="dropdown-item" href="#">Dropdown link</a>
+              </div>
+            </div>
+          </div>
+
+          <h2 class="display-4">Responsive Grid</h2>
+          <div class="row align-items-center">
+            <div class="col-md-6 col-xl-3 bg-success">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente neque quos, a vel quod fuga. Quod, soluta repellendus temporibus esse maiores dolor harum nostrum, reiciendis ullam totam asperiores maxime deserunt.
+                </div>
+
+                <div class="col-md-6 col-xl-3 bg-danger">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quos doloremque eius maxime eos explicabo cupiditate sapiente blanditiis illum necessitatibus! Earum obcaecati sed explicabo autem, molestias distinctio rem eos placeat.
+                    Doloribus velit eveniet at. Suscipit dolorum ab a veniam reprehenderit, corporis, non harum error quod culpa sint ullam voluptates deleniti rerum ex hic at optio itaque perferendis alias maxime delectus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente neque quos, a vel quod fuga. Quod, soluta repellendus temporibus esse maiores dolor harum nostrum, reiciendis ullam totam asperiores maxime deserunt.
+                    </div>
+                
+                    <div class="col-md-6 col-xl-3 bg-warning">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente neque quos, a vel quod fuga. Quod, soluta repellendus temporibus esse maiores dolor harum nostrum, reiciendis ullam totam asperiores maxime deserunt.
+                        </div>
+        
+                        <div class="col-md-6 col-xl-3 bg-danger">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit facilis beatae magnam. In quidem perferendis explicabo neque sequi et? Non nesciunt blanditiis, ab consequatur reiciendis molestias quia mollitia maxime eum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente neque quos, a vel quod fuga. Quod, soluta repellendus temporibus esse maiores dolor harum nostrum, reiciendis ullam totam asperiores maxime deserunt.
+                            </div>
+
+          </div>
+
+          <h3>Justify content</h3>
+          <div class="row border justify-content-between">
+            <div class="col-4 bg-primary">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis velit iste sequi quidem, assumenda saepe illo nulla architecto minus nostrum molestias beatae id debitis in. Consectetur ipsa quidem odio odit.
+            </div>
+            <div class="col-4 bg-warning">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis velit iste sequi quidem, assumenda saepe illo nulla architecto minus nostrum molestias beatae id debitis in. Consectetur ipsa quidem odio odit.
+            </div>
+          </div>
+
+
+
+          <div class="row no-gutters">
+            <div class="col-xl-4">
+                 <img class="img-fluid" src=" https://images.unsplash.com/photo-1691942745083-7454c1592124?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80" alt="">
+              </div>
+          
+            <div class="col-xl-4">  
+              <img class="img-fluid" src="https://images.unsplash.com/photo-1688728489565-8c155cf71c64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80" alt="">
+            </div>
+
+            <div class="col-xl-4">
+              <img class="img-fluid" src="https://images.unsplash.com/photo-1644922738074-743d753e6d86?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=436&q=80
+          " alt="">
+            </div>
+
+        </div>
+
+        </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
