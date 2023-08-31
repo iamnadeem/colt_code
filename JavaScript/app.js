@@ -19,7 +19,22 @@ const facialHair = box.replace("o", "e");
 
 console.log(facialHair);
 
+console.log("I love learning Javascript");  
+
+
 
 // let facialHair = word.slice(5).replace("o", "e");
 
+// Number is even code
 
+let num = 568
+// function isEven(num){
+    //WRITE YOUR CODE BETWEEN THIS LINE: ↓ ↓ ↓ ↓ 
+    
+    if (num%2 == 0){
+        console.log("even");
+    }
+   
+   
+    //AND THIS LINE ↑↑↑↑↑
+// }
