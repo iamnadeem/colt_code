@@ -27,14 +27,53 @@ console.log("I love learning Javascript");
 
 // Number is even code
 
-let num = 568
-// function isEven(num){
-    //WRITE YOUR CODE BETWEEN THIS LINE: ↓ ↓ ↓ ↓ 
+// let num = 568
+// // function isEven(num){
+//     //WRITE YOUR CODE BETWEEN THIS LINE: ↓ ↓ ↓ ↓ 
     
-    if (num%2 == 0){
-        console.log("even");
-    }
+//     if (num%2 == 0){
+//         console.log("even");
+//     }
    
    
     //AND THIS LINE ↑↑↑↑↑
 // }
+// =====Conditional Statements > if, else if, else 
+
+// function getColor(phrase){
+//     //WRITE YOUR CODE BETWEEN THIS LINE: ↓ ↓ ↓ ↓ 
+    
+//     if (phrase == 'stop'){
+//         console.log('red');
+//     }
+//     else if (phrase == 'slow'){
+//         console.log('yellow');
+//     }
+//     else if (phrase == 'go'){
+//         console.log('green');
+//     }
+//     else {
+//         console.log('purple');
+//     }
+   
+   
+//     //AND THIS LINE ↑↑↑↑↑
+// }
+
+// ==========NESTING loops 
+
+// Change the value of num, so that "YOU GOT ME!" prints out
+const num = 102; // THIS IS THE ONLY LINE YOU SHOULD CHANGE :) 
+
+// DO NOT TOUCH ANYTHING BELOW (please) 
+if(num <= 100) {
+    if(num >= 50) {
+        console.log("HEY!");
+    }
+} else {
+    if (num < 103) {
+        if(num % 2 === 0){
+            console.log("YOU GOT ME!");
+        }
+    }
+}
