@@ -63,17 +63,33 @@ console.log("I love learning Javascript");
 // ==========NESTING loops 
 
 // Change the value of num, so that "YOU GOT ME!" prints out
-const num = 102; // THIS IS THE ONLY LINE YOU SHOULD CHANGE :) 
+// const num = 102; // THIS IS THE ONLY LINE YOU SHOULD CHANGE :) 
 
 // DO NOT TOUCH ANYTHING BELOW (please) 
-if(num <= 100) {
-    if(num >= 50) {
-        console.log("HEY!");
-    }
-} else {
-    if (num < 103) {
-        if(num % 2 === 0){
-            console.log("YOU GOT ME!");
-        }
-    }
-}
+// if(num <= 100) {
+//     if(num >= 50) {
+//         console.log("HEY!");
+//     }
+// } else {
+//     if (num < 103) {
+//         if(num % 2 === 0){
+//             console.log("YOU GOT ME!");
+//         }
+//     }
+// }
+
+// Logical Operators
+
+const mystery = 'Person7aa'; //CHANGE THIS VALUE TO MAKE THE CONDITIONAL BELOW TRUE
+
+
+
+// LEAVE THIS CODE ALONE! (pretty please)
+// if(mystery[0] === 'P' && mystery.length > 5 && mystery.indexOf('7') !== -1){
+//     console.log("YOU GOT IT!!!");
+// }
+
+// ARRAY - Your first Data Structure
+// Define lottoNumbers below:
+
+let lottoNumbers = [1,2,3,4,5,6];
