@@ -94,9 +94,36 @@ console.log("I love learning Javascript");
 
 // let lottoNumbers = [1,2,3,4,5,6];
 
-const leaderboard = ['Harry', 'Lua', 'Hermione', 'Bellatrix']; //DON'T TOUCH THIS LINE!
+// const leaderboard = ['Harry', 'Lua', 'Hermione', 'Bellatrix']; //DON'T TOUCH THIS LINE!
 
 // YOUR CODE BELOW HERE:
 
-leaderboard[1] = 'Luna';
-leaderboard[3] = 'Draco';
+// leaderboard[1] = 'Luna';
+// leaderboard[3] = 'Draco';
+
+// Array Methods
+
+// const planets = ['The Moon','Venus', 'Earth', 'Mars', 'Jupiter']; //DO NOT TOUCH THIS LINE!
+
+// // YOUR CODE GOES BELOW THIS LINE:
+
+// planets.shift()
+
+// planets.unshift('Mercury')
+
+// Array Nested together
+
+// DO NOT TOUCH!!! (please)
+const airplaneSeats = [
+    ['Ruth', 'Anthony', 'Stevie'],
+    ['Amelia', 'Pedro', 'Maya'],
+    ['Xavier', 'Ananya', 'Luis'],
+    ['Luke', null, 'Deniz'],
+    ['Rin', 'Sakura', 'Francisco']
+];
+
+// YOUR CODE GOES BELOW THIS LINE:
+
+airplaneSeats[3][1] = 'Hugo'
+
+planets.push('Saturn')
