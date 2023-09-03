@@ -114,16 +114,38 @@ console.log("I love learning Javascript");
 // Array Nested together
 
 // DO NOT TOUCH!!! (please)
-const airplaneSeats = [
-    ['Ruth', 'Anthony', 'Stevie'],
-    ['Amelia', 'Pedro', 'Maya'],
-    ['Xavier', 'Ananya', 'Luis'],
-    ['Luke', null, 'Deniz'],
-    ['Rin', 'Sakura', 'Francisco']
-];
+// const airplaneSeats = [
+//     ['Ruth', 'Anthony', 'Stevie'],
+//     ['Amelia', 'Pedro', 'Maya'],
+//     ['Xavier', 'Ananya', 'Luis'],
+//     ['Luke', null, 'Deniz'],
+//     ['Rin', 'Sakura', 'Francisco']
+// ];
 
 // YOUR CODE GOES BELOW THIS LINE:
 
-airplaneSeats[3][1] = 'Hugo'
+// airplaneSeats[3][1] = 'Hugo'
 
-planets.push('Saturn')
+// planets.push('Saturn')
+
+// Your first Object Literal
+
+// const product = {
+//     name : "Gummy Bears",
+//     inStock: true,
+//     price : 1.99,
+//     flavors: ["grape", "apple", "cherry"]
+// }
+
+//PLEASE DON'T TOUCH THIS LINE! MSOT TIME CONSUMING CODE FOR ME.... DAMN
+const restaurant = {
+    name: 'Ichiran Ramen',
+    address: `${Math.floor(Math.random() * 100) + 1} Johnson Ave`,
+    city: 'Brooklyn',
+    state: 'NY',
+    zipcode: '11206',
+}
+
+//YOUR CODE GOES DOWN HERE:
+
+const fullAddress = `${restaurant["address"]}, ${restaurant["city"]}, ${restaurant["state"]} ${restaurant["zipcode"]}`
