@@ -138,14 +138,35 @@ console.log("I love learning Javascript");
 // }
 
 //PLEASE DON'T TOUCH THIS LINE! MSOT TIME CONSUMING CODE FOR ME.... DAMN
-const restaurant = {
-    name: 'Ichiran Ramen',
-    address: `${Math.floor(Math.random() * 100) + 1} Johnson Ave`,
-    city: 'Brooklyn',
-    state: 'NY',
-    zipcode: '11206',
-}
+// const restaurant = {
+//     name: 'Ichiran Ramen',
+//     address: `${Math.floor(Math.random() * 100) + 1} Johnson Ave`,
+//     city: 'Brooklyn',
+//     state: 'NY',
+//     zipcode: '11206',
+// }
 
 //YOUR CODE GOES DOWN HERE:
 
-const fullAddress = `${restaurant["address"]}, ${restaurant["city"]}, ${restaurant["state"]} ${restaurant["zipcode"]}`
+// const fullAddress = `${restaurant["address"]}, ${restaurant["city"]}, ${restaurant["state"]} ${restaurant["zipcode"]}`
+
+// My first For loop 
+
+// Print out "Da ba dee da ba daa" 6 times, using a for loop
+
+for (let i=1 ; i<=6 ; i++){
+    console.log("Da ba dee da ba daa")
+}
+
+// more For loop exercises
+// Write a loop that prints:
+// 25
+// 20
+// 15
+// 10
+// 5
+// 0
+
+for (let i=25 ; i>=0 ; i-=5){
+    console.log(i);
+}
