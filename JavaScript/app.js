@@ -154,9 +154,9 @@ console.log("I love learning Javascript");
 
 // Print out "Da ba dee da ba daa" 6 times, using a for loop
 
-for (let i=1 ; i<=6 ; i++){
-    console.log("Da ba dee da ba daa")
-}
+// for (let i=1 ; i<=6 ; i++){
+//     console.log("Da ba dee da ba daa")
+// }
 
 // more For loop exercises
 // Write a loop that prints:
@@ -167,24 +167,33 @@ for (let i=1 ; i<=6 ; i++){
 // 5
 // 0
 
-for (let i=25 ; i>=0 ; i-=5){
-    console.log(i);
-}
-for (let i=25 ; i>=0 ; i-=5){
-    console.log(i);
-}
-for (let i=25 ; i>=0 ; i-=5){
-    console.log(i);
-}
-for (let i=25 ; i>=0 ; i-=5){
-    console.log(i);
-}
-for (let i=25 ; i>=0 ; i-=5){
-    console.log(i);
-}
-for (let i=25 ; i>=0 ; i-=5){
-    console.log(i);
-}
-for (let i=25 ; i>=0 ; i-=5){
-    console.log(i);
+// for (let i=25 ; i>=0 ; i-=5){
+//     console.log(i);
+// }
+// for (let i=25 ; i>=0 ; i-=5){
+//     console.log(i);
+// }
+// for (let i=25 ; i>=0 ; i-=5){
+//     console.log(i);
+// }
+// for (let i=25 ; i>=0 ; i-=5){
+//     console.log(i);
+// }
+// for (let i=25 ; i>=0 ; i-=5){
+//     console.log(i);
+// }
+// for (let i=25 ; i>=0 ; i-=5){
+//     console.log(i);
+// }
+// for (let i=25 ; i>=0 ; i-=5){
+//     console.log(i);
+// }
+
+// For loop exercises
+const people = ["Scooby", "Velma", "Daphne", "Shaggy", "Fred"]; //DONT TOUCH THIS LINE!
+
+// WRITE YOUR LOOP BELOW THIS LINE:
+
+for (let i = 0; i < people.length; i++){
+    console.log((people[i]).toUpperCase())
 }
