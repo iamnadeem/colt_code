@@ -31,3 +31,9 @@ if (guess === 'q'){
     console.log("CONGRATS YOU WIN!")
 console.log(`You got it! It took you ${attempts} guesses`)
 }
+
+console.log("thank god, its weekend")
+console.log("thank god, its weekend")
+console.log("thank god, its weekend")
+console.log("thank god, its weekend")
+console.log("thank god, its weekend")
