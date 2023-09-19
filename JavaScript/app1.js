@@ -194,6 +194,14 @@ const people = ["Scooby", "Velma", "Daphne", "Shaggy", "Fred"]; //DONT TOUCH THI
 
 // WRITE YOUR LOOP BELOW THIS LINE:
 
-for (let i = 0; i < people.length; i++){
-    console.log((people[i]).toUpperCase())
+// for (let i = 0; i < people.length; i++){
+//     console.log((people[i]).toUpperCase())
+// }
+
+// FOR ....OF LOOP
+
+for(let numbers of numbers){
+    const squared = Math.pow(numbers, 2);
+    console.log(squared);
 }
+   
