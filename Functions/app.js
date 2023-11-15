@@ -6,6 +6,23 @@ function singSong(){
 
 singSong();
 singSong();
-singSong();
-singSong();
-singSong();
+
+function printHeart(){
+    console.log("<3");
+}
+
+printHeart();
+
+console.log('*************');
+
+
+function rant(message){
+
+    for (let i=0; i<3;i++){
+        console.log(message.toUpperCase());
+    }
+}
+    // console.log(message.toUpperCase());
+    // console.log(message.toUpperCase());
+
+rant("i hate beets");
