@@ -77,11 +77,47 @@ function capitalize(word) {
   return word[0].toUpperCase() + word.slice(1);
 */
 
-function capitalize(str){
-    const firstLetter = str[0].toUpperCase();
-    const rest = str.slice(1);
-    return firstLetter+rest;
+// function capitalize(str){
+//     const firstLetter = str[0].toUpperCase();
+//     const rest = str.slice(1);
+//     return firstLetter+rest;
     
-}       
-str = 'hello';
+// }       
+// str = 'hello';
+
+// DEFINE YOUR FUNCTION BELOW: for SUM OF ALL THE ARRay NUMBERS
+function sumArray(Arr){
+    // arr[]=[1,2,3]
+    let sum = 0
+    for(let i=0; i<Arr.length ; i++){
+        sum = sum + Arr[i];
+    }
+    console.log(sum);
+    return sum; 
+    
+    
+}
+
+//sumArray(Arr=[1,3,3]);
+// sumArray(Arr=[10,10,10]);
+/**
+ * SOLUTION #1:
+
+function sumArray(nums) {
+  let total = 0;
+  for (let num of nums) {
+    total += num;
+  }
+  return total;
+}
+SOLUTION #2:
+
+function sumArray(nums) {
+  let total = 0;
+  for (let i = 0; i < nums.length; i++) {
+    total += nums[i];
+  }
+  return total;
+}
+ */
 
