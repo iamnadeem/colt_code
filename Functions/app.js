@@ -37,15 +37,51 @@ console.log('*************');
 //     }
 // }
 // isSnakeEyes(2,2);
-function isSnakeEyes(die1, die2) {
-    if (die1 === 1 && die2 === 1) {
-      console.log('Snake Eyes!');
-    } else {
-      console.log('Not Snake Eyes!');
-    }
-  }
+// function isSnakeEyes(die1, die2) {
+//     if (die1 === 1 && die2 === 1) {
+//       console.log('Snake Eyes!');
+//     } else {
+//       console.log('Not Snake Eyes!');
+//     }
+//   }
 
-  // DEFINE YOUR FUNCTION BELOW:
-function multiply(num1, num2){
-    return num1 * num2;
-}
+//   // DEFINE YOUR FUNCTION BELOW:
+// function multiply(num1, num2){
+//     return num1 * num2;
+// }
+
+// // DEFINE YOUR FUNCTION BELOW: for temperature for shorts or pants
+
+// function isShortsWeather(temperature){
+//     if(temperature >= 75){
+//         return true;
+//     }
+//     return false;
+// }
+
+// // DEFINE YOUR FUNCTION BELOW: returning the last element of the array
+// function lastElement(arr){
+//     if(arr.length > 0){
+//         return arr[arr.length-1];
+//     }else{
+//         return null;
+//     }
+      
+// }
+
+//capitalise the first letter = e.g. Bombay
+/*
+SOLUTION #1:
+
+function capitalize(word) {
+  return word[0].toUpperCase() + word.slice(1);
+*/
+
+function capitalize(str){
+    const firstLetter = str[0].toUpperCase();
+    const rest = str.slice(1);
+    return firstLetter+rest;
+    
+}       
+str = 'hello';
+
