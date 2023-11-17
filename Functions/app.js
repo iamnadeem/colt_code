@@ -121,3 +121,19 @@ function sumArray(nums) {
 }
  */
 
+// DEFINE YOUR FUNCTION BELOW: days of the week
+function returnDay(i){
+    const days= ['null','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
+    
+   
+    if(i<1 || i>7){
+        return null
+    }
+    return days[i]
+    
+}
+
+// Storing a function inside a variable. Also, executing this code.
+const square = function(num){
+    return num*num;
+}
