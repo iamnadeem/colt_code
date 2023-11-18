@@ -86,17 +86,17 @@ function capitalize(word) {
 // str = 'hello';
 
 // DEFINE YOUR FUNCTION BELOW: for SUM OF ALL THE ARRay NUMBERS
-function sumArray(Arr){
-    // arr[]=[1,2,3]
-    let sum = 0
-    for(let i=0; i<Arr.length ; i++){
-        sum = sum + Arr[i];
-    }
-    console.log(sum);
-    return sum; 
+// function sumArray(Arr){
+//     // arr[]=[1,2,3]
+//     let sum = 0
+//     for(let i=0; i<Arr.length ; i++){
+//         sum = sum + Arr[i];
+//     }
+//     console.log(sum);
+//     return sum; 
     
     
-}
+// }
 
 //sumArray(Arr=[1,3,3]);
 // sumArray(Arr=[10,10,10]);
@@ -122,18 +122,23 @@ function sumArray(nums) {
  */
 
 // DEFINE YOUR FUNCTION BELOW: days of the week
-function returnDay(i){
-    const days= ['null','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
+// function returnDay(i){
+//     const days= ['null','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
     
    
-    if(i<1 || i>7){
-        return null
-    }
-    return days[i]
+//     if(i<1 || i>7){
+//         return null
+//     }
+//     return days[i]
     
-}
+// }
 
 // Storing a function inside a variable. Also, executing this code.
+let num = 9;
 const square = function(num){
+    console.log(num*num);
     return num*num;
 }
+
+num = 9;
+console.log 
