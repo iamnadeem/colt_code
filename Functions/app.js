@@ -142,3 +142,62 @@ const square = function(num){
 
 num = 9;
 console.log 
+
+
+// to do the area and perimeter of the square
+const square = {
+    area(side){
+     return side * side
+    },
+
+    perimeter(side) {
+       return 4 * side
+    }
+
+}                 
+// to do the area and perimeter of the square
+const square = {
+    area(side){
+     return side * side
+    },
+
+    perimeter(side) {
+       return 4 * side
+    }
+
+}                 
+// to do the area and perimeter of the square
+const square = {
+    area(side){
+     return side * side
+    },
+
+    perimeter(side) {
+       return 4 * side
+    }
+
+}                 
+// to do the area and perimeter of the square
+const square = {
+    area(side){
+     return side * side
+    },
+
+    perimeter(side) {
+       return 4 * side
+    }
+
+}                 
+// to do the area and perimeter of the square
+const square = {
+    area(side){
+     return side * side
+    },
+
+    perimeter(side) {
+       return 4 * side
+    }
+
+}                 
+
+//check it out
