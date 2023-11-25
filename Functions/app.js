@@ -200,10 +200,13 @@ const square = {
 
 }                 
 
-//check it out
-//check it out
-//check it out
-//check it out
-//check it out
-//check it out
-//check it out
+//'this' keyword
+let hen={
+  name: "Helen",
+  eggCount: 0,
+  layAnEgg(){
+      this.eggCount++
+      return 'EGG'
+  }
+      
+  }
