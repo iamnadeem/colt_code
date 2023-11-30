@@ -220,3 +220,18 @@ const firstNames = fullNames.map(function (fullNames){
     return fullNames.first;
 })
 
+//Arrow functions : user for compact syntax in js
+const greet = (name) => {
+  return `Hey ${name}!`;
+}
+
+//Arrow functions : user for compact syntax in js
+const greet = (name) => {
+  return `Hey ${name}!`;
+}
+
+//Arrow functions : user for compact syntax in js
+const greet = (name) => {
+  return `Hey ${name}!`;
+}
+
